@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Plus Jakarta Sans;
+}
+
+body {
+  background: hsl(205, 33%, 90%);
+}
+@media only screen and (min-width: 1440px) {
+  .notification_head {
+    max-width: 100%;
+    position: absolute;
+    left: 50px;
+    color: hsl(224, 21%, 14%);
+  }
+
+  .three {
+    font-size: 1em;
+    font-weight: 800;
+    background: hsl(222, 90%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    left: 270px;
+    padding-top: 3px;
+  }
+
+  .mark {
+    color: hsl(219, 14%, 63%);
+    max-width: 100%;
+    position: absolute;
+    right: 50px;
+    border: none;
+    font-size: 16px;
+    background: transparent;
+  }
+
+  .mark:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+
+  .top-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    position: relative;
+  }
+
+  #notification_page {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    margin: 100px 300px;
+    border-radius: 15px;
+  }
+
+  .person {
+    display: flex;
+    flex-direction: row;
+    /* background: hsl(205, 33%, 90%); */
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .bg-color {
+    background: hsl(205, 33%, 90%);
+  }
+
+  .information {
+    margin-left: 20px;
+  }
+
+  .info-line {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .person-images {
+    height: 100%;
+    width: 50px;
+  }
+
+  .contact-name {
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+  }
+
+  .contact-name:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .link {
+    font-size: 16px;
+    margin-left: 0.3em;
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+  }
+
+  .link:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+
+  .kimberly {
+    position: relative;
+  }
+
+  .nathan {
+    display: inline;
+  }
+
+  .chess-image {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+  }
+
+  .chess-image:hover {
+    cursor: pointer;
+    border: solid hsl(205, 33%, 90%);
+    border-radius: 10px;
+  }
+
+  .plain-text {
+    font-size: 16px;
+    margin-left: 0.3em;
+    color: hsl(219, 12%, 42%);
+  }
+
+  .days-left {
+    margin-top: 5px;
+    color: hsl(219, 12%, 42%);
+  }
+
+  .message {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px;
+    padding: 20px;
+    color: hsl(219, 12%, 42%);
+    border-radius: 5px;
+    width: 90%;
+    margin-bottom: 0;
+    border: solid hsl(211, 68%, 94%);
+    border-width: 1px;
+  }
+
+  .message:hover {
+    cursor: pointer;
+    background: hsl(205, 33%, 90%);
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: hsl(1, 90%, 64%);
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  #notification_page {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .top-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    position: relative;
+  }
+
+  .notification_head {
+    font-size: 1.2em;
+    max-width: 100%;
+    color: hsl(224, 21%, 14%);
+  }
+
+  .three {
+    font-size: 1em;
+    font-weight: 800;
+    background: hsl(222, 90%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+
+  .mark {
+    color: hsl(219, 14%, 63%);
+    max-width: 100%;
+    position: absolute;
+    right: 0px;
+    border: none;
+    font-size: 16px;
+    background: transparent;
+  }
+
+  .mark:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+
+  .person {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .bg-color {
+    background: hsl(205, 33%, 90%);
+  }
+
+  .information {
+    margin-left: 20px;
+  }
+
+  .contact-name {
+    display: inline;
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+  }
+
+  .plain-text {
+    display: inline;
+  }
+
+  .person-images {
+    height: 100%;
+    width: 50px;
+  }
+
+  .contact-name:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .link {
+    display: inline;
+    font-size: 16px;
+    margin-left: 0.3em;
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+  }
+
+  .link:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+
+  .kimberly {
+    position: relative;
+  }
+
+  .nathan {
+    display: inline;
+  }
+
+  .smith {
+    display: inline-block;
+  }
+
+  .chess-image {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+  }
+
+  .chess-image:hover {
+    cursor: pointer;
+    border: solid hsl(205, 33%, 90%);
+    border-radius: 10px;
+  }
+
+  .plain-text {
+    font-size: 16px;
+    margin-left: 0.3em;
+    color: hsl(219, 12%, 42%);
+  }
+
+  .days-left {
+    margin-top: 5px;
+    color: hsl(219, 12%, 42%);
+  }
+
+  .message {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 20px;
+    color: hsl(219, 12%, 42%);
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 0;
+    border: solid hsl(211, 68%, 94%);
+    border-width: 1px;
+  }
+
+  .message:hover {
+    cursor: pointer;
+    background: hsl(205, 33%, 90%);
+  }
+
+  .dot {
+    display: inline;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: hsl(1, 90%, 64%);
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
